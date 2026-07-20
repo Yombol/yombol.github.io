@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Terms and Conditions | Yombol Music</title>
+    <meta name="description" content="Read the Yombol Music Terms and Conditions. Review the rules for using our website, services, and exclusive beat licenses.">
+    <meta name="theme-color" content="#00f2ff">
+    
+    <link rel="canonical" href="https://yombolmusic.com/terms-conditions.html">
+    <link rel="icon" href="images/default-logo.png" type="image/png">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    
+    <style>
+        :root {
+            --neon-cyan: #00f2ff;
+            --neon-teal: #00b8b8;
+            --neon-ice: #82faff;
+            --dark-teal: #012a30;
+            --bg-dark: #061d22; 
+            --text-light: #ffffff;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: var(--bg-dark);
+            color: var(--text-light);
+            overflow-x: hidden;
+            line-height: 1.6;
+        }
+
+        /* Ambient Geometric Animation */
+        .bg-wrapper {
+            position: fixed;
+            top: 0; left: 0; width: 100%; height: 100%;
+            z-index: -1;
+            background: var(--bg-dark);
+            overflow: hidden;
+        }
+
+        .shape {
+            position: absolute;
+            filter: blur(80px);
+            opacity: 0.25;
+            animation: moveShape 20s infinite alternate ease-in-out;
+        }
+
+        .shape-1 { 
+            width: 450px; height: 450px; 
+            top: 10%; left: -5%; 
+            background: linear-gradient(45deg, var(--neon-cyan), var(--neon-teal)); 
+            clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+        }
+        
+        .shape-2 { 
+            width: 550px; height: 550px; 
+            bottom: 5%; right: -10%; 
+            background: linear-gradient(45deg, var(--neon-ice), var(--dark-teal)); 
+            clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+            animation-delay: -3s; 
+        }
+
+        @keyframes moveShape {
+            0% { transform: translate(0, 0) scale(1) rotate(0deg); }
+            100% { transform: translate(25%, 20%) scale(1.3) rotate(45deg); }
+        }
+
+        .container { 
+            max-width: 900px; 
+            margin: 0 auto; 
+            padding: 40px 15px; 
+        }
+
+        /* Simple Header with Logo */
+        .simple-header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .simple-header img {
+            max-height: 60px;
+            transition: 0.3s;
+        }
+
+        .simple-header img:hover {
+            filter: drop-shadow(0 0 15px rgba(0, 242, 255, 0.5));
+        }
+
+        /* Back to Home Button */
+        .back-btn-container {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .back-btn {
+            display: inline-flex; 
+            align-items: center; 
+            justify-content: center; 
+            gap: 10px;
+            padding: 12px 30px;
+            background: transparent;
+            color: var(--neon-cyan);
+            border: 2px solid var(--neon-cyan);
+            text-decoration: none !important;
+            font-weight: 800; 
+            font-size: 1rem; 
+            text-transform: uppercase; 
+            border-radius: 8px; 
+            transition: 0.3s;
+            letter-spacing: 1px;
+        }
+
+        .back-btn:hover {
+            background: rgba(0, 242, 255, 0.1);
+            box-shadow: 0 0 20px rgba(0, 242, 255, 0.4);
+            transform: scale(1.05);
+        }
+
+        /* Legal Content Box */
+        .legal-section {
+            background: rgba(3, 18, 24, 0.85);
+            padding: 50px;
+            border-radius: 20px; 
+            border: 1px solid rgba(0, 242, 255, 0.3);
+            box-shadow: inset 0 0 40px rgba(0,0,0,0.5), 0 0 50px rgba(0, 242, 255, 0.15); 
+            backdrop-filter: blur(12px);
+            color: #cbe4e6;
+        }
+
+        .legal-section h1 {
+            color: #fff;
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 40px;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            text-shadow: 0 0 10px rgba(0, 242, 255, 0.5); 
+        }
+
+        .legal-section h3 {
+            color: var(--neon-ice);
+            font-size: 1.4rem;
+            margin-top: 35px;
+            margin-bottom: 15px;
+            font-weight: 800;
+        }
+
+        .legal-section p {
+            margin-bottom: 15px;
+            font-size: 1rem;
+            line-height: 1.8;
+            text-align: justify;
+        }
+
+        .legal-section ul {
+            margin-bottom: 20px;
+            padding-left: 20px;
+        }
+
+        .legal-section li {
+            margin-bottom: 10px;
+            font-size: 1rem;
+        }
+
+        .legal-section strong {
+            color: #fff;
+        }
+
+        .legal-section a {
+            color: var(--neon-cyan);
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer { 
+            text-align: center; 
+            padding: 60px 0; 
+            border-top: 1px solid rgba(0,242,255,0.1); 
+            font-size: 0.8rem; 
+            color: #7a9c9f; 
+            margin-top: 40px; 
+        }
+        
+        footer p { margin-bottom: 15px; }
+        
+        .footer-links { display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; }
+        .footer-links a { color: #8ebbc0; text-decoration: none; transition: 0.3s; font-weight: 600; }
+        .footer-links a:hover { color: var(--neon-cyan); text-shadow: 0 0 10px rgba(0, 242, 255, 0.5); }
+
+        @media (max-width: 768px) {
+            .legal-section { padding: 30px 20px; }
+            .legal-section h1 { font-size: 2rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Animated Geometric Background -->
+    <div class="bg-wrapper">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+    </div>
+
+    <div class="container">
+        
+        <!-- Logo Header -->
+        <div class="simple-header">
+            <a href="index.html">
+                <img src="images/default-logo.png" alt="Yombol Music">
+            </a>
+        </div>
+
+        <!-- Back Button Top -->
+        <div class="back-btn-container">
+            <a href="index.html" class="back-btn">
+                <i class="fas fa-arrow-left"></i> Back to Home
+            </a>
+        </div>
+
+        <!-- Content Section -->
+        <section class="legal-section">
+            <h1>Terms and Conditions</h1>
+            
+            <p>These Terms and Conditions govern the use of the website <strong>yombolmusic.com</strong> and transactions related to the purchase and licensing of beats offered by <strong>Yombol Music</strong>. By accessing and using the site, you agree to these conditions.</p>
+
+            <h3>1. Identity and Contact</h3>
+            <p><strong>Brand/Responsible:</strong> Yombol Music<br>
+               <strong>Email:</strong> YombolMusic@gmail.com<br>
+               <strong>WhatsApp:</strong> +57 319 401 8839<br>
+               <strong>Location:</strong> Tunja, Boyacá, Colombia</p>
+
+            <h3>2. Purpose of the Service</h3>
+            <p>Yombol Music offers beats and licenses for musical use by artists and creators. Licenses may be non-exclusive or exclusive, as indicated for each product.</p>
+
+            <h3>3. Purchase Process and External Platforms</h3>
+            <p>Purchases may be managed directly on yombolmusic.com or through external platforms such as <strong>Beatstars</strong>. By purchasing through these platforms, you agree to their terms and refund/payment policies.</p>
+
+            <h3>4. Licenses and Scope of Use</h3>
+            <ul>
+              <li><strong>Non-exclusive licenses (Lease):</strong> authorize the use of the beat under established limits and conditions (e.g., distribution, streams, videos).</li>
+              <li><strong>Exclusive licenses:</strong> grant exclusive usage rights to the buyer, as agreed.</li>
+              <li>The scope of each license is detailed on the product page or in the corresponding license document.</li>
+            </ul>
+
+            <h3>5. Copyright and Ownership</h3>
+            <p>Yombol Music retains ownership of the <strong>copyright</strong> of the master and/or underlying composition of the beat, unless otherwise agreed in exclusive licenses. The buyer receives usage rights according to the acquired license, not ownership of the beat.</p>
+
+            <h3>6. Attribution</h3>
+            <p>When required, the buyer must credit the producer as: <strong>“Produced by Yombol Music”</strong> in publications or releases of the derivative track.</p>
+
+            <h3>7. Payments and Refunds</h3>
+            <ul>
+              <li>Payments are made according to the methods enabled on the site and/or external platforms.</li>
+              <li>Licenses are considered <strong>non-refundable</strong>, unless otherwise required by applicable law or due to a technical fault attributable to the seller.</li>
+            </ul>
+
+            <h3>8. Permitted Use and Restrictions</h3>
+            <ul>
+              <li>It is prohibited to resell, sublicense, or distribute the beat “as is” without authorization.</li>
+              <li>The use of the beat for illegal, defamatory, or rights-infringing purposes is prohibited.</li>
+              <li>The buyer must comply with the usage limits associated with their license (e.g., number of copies, streams, performances, synchronization).</li>
+            </ul>
+
+            <h3>9. Samples and Third-Party Content</h3>
+            <p>If the beat includes samples, the buyer agrees to obtain the necessary authorizations for commercial or synchronization uses. Yombol Music is not responsible for the use of samples without proper authorization.</p>
+
+            <h3>10. Advertising, Analytics, and Cookies</h3>
+            <p>The site may use advertising and analytics services (e.g., Google AdSense, Analytics), with the use of cookies described in the <a href="cookies.html">Cookie Policy</a>. The processing of personal data is described in the <a href="privacy-policy.html">Privacy Policy</a>.</p>
+
+            <h3>11. Limitation of Liability</h3>
+            <p>Yombol Music does not guarantee uninterrupted availability of the site or the absence of errors. In no case shall it be liable for indirect, incidental, or consequential damages arising from the use of the site or purchased products.</p>
+
+            <h3>12. Indemnification</h3>
+            <p>The buyer agrees to indemnify and hold harmless Yombol Music against claims arising from misuse of the beat, breach of these terms, or violation of third-party rights.</p>
+
+            <h3>13. External Links</h3>
+            <p>The site may include links to third-party services (e.g., Beatstars). Yombol Music is not responsible for their content or practices; it is recommended to review their terms before using such services.</p>
+
+            <h3>14. Changes to the Terms</h3>
+            <p>We may update these Terms and Conditions to reflect legal, technical, or business changes. The current version will always be available on this page. Last update: 2026.</p>
+
+            <h3>15. Governing Law and Jurisdiction</h3>
+            <p>These Terms and Conditions are governed by the laws of <strong>Colombia</strong>. In case of any dispute, the parties may seek an amicable solution or turn to the competent authority in Colombia.</p>
+
+            <h3>16. Contact</h3>
+            <p>For inquiries about these Terms and Conditions, contact us at <strong>YombolMusic@gmail.com</strong> or via WhatsApp <strong>+57 319 401 8839</strong>.</p>
+        </section>
+
+        <!-- Back Button Bottom -->
+        <div class="back-btn-container" style="margin-top: 40px;">
+            <a href="index.html" class="back-btn">
+                <i class="fas fa-arrow-left"></i> Back to Home
+            </a>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <p>© 2026 Yombol Music. All Rights Reserved.</p>
+            <div class="footer-links">
+                <a href="privacy-policy.html">Privacy Policy</a> • 
+                <a href="cookies.html">Cookies Policy</a> • 
+                <a href="terms-conditions.html">Terms & Conditions</a>
+            </div>
+        </footer>
+
+    </div>
+    
+</body>
+</html>

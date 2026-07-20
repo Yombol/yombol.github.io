@@ -1,368 +1,270 @@
 <!DOCTYPE html>
-<html style="font-size: 16px;" lang="es">
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="utf-8">
     
-    <title>Política de Cookies | Yombol Music</title>
-    <meta name="description" content="Conoce la política de cookies de Yombol Music. Explicamos cómo usamos cookies para mejorar tu experiencia de navegación en nuestro sitio.">
-    <meta name="keywords" content="Política de Cookies, Privacidad, Navegación Segura, Yombol Music, Cookies Web">
-    <meta name="generator" content="Nicepage 7.14.0, nicepage.com">
-    <meta name="theme-color" content="#17d2d3">
-
+    <title>Cookie Policy | Yombol Music</title>
+    <meta name="description" content="Read the Cookie Policy for Yombol Music. Learn how we use cookies to improve your browsing experience.">
+    <meta name="theme-color" content="#00f2ff">
+    
     <link rel="canonical" href="https://yombolmusic.com/cookies.html">
-    <link rel="alternate" hreflang="es" href="https://yombolmusic.com/cookies.html" />
-    <link rel="alternate" hreflang="en" href="https://yombolmusic.com/en/cookies.html" />
+    <link rel="icon" href="images/default-logo.png" type="image/png">
 
-    <link rel="stylesheet" href="nicepage.css" media="screen">
-    <link rel="stylesheet" href="cookies.css" media="screen">
-    <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
-    <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
-    
-    <link rel="icon" type="image/png" href="favicon.png">
-
-    <meta property="og:title" content="Política de Cookies | Yombol Music">
-    <meta property="og:description" content="Información transparente sobre el uso de cookies en nuestro sitio web.">
-    <meta property="og:image" content="https://yombolmusic.com/images/photo-1740062446976-94a8837e0dde.jpeg">
-    <meta property="og:url" content="https://yombolmusic.com/cookies.html">
-    <meta property="og:type" content="website">
-
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Política de Cookies | Yombol Music">
-    <meta name="twitter:description" content="Consulta cómo gestionamos las cookies para mejorar tu experiencia.">
-    <meta name="twitter:image" content="https://yombolmusic.com/images/photo-1740062446976-94a8837e0dde.jpeg">
-
-    <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
-    <meta data-intl-tel-input-cdn-path="intlTelInput/">
-
+    
     <style>
-        #header { background-color: #dde6e9; }
-        #header .u-nav .u-nav-link {
-            color: #222427 !important;
-            font-family: 'Open Sans', sans-serif;
-            font-weight: 530;
-            font-size: 14px;
-            text-transform: uppercase;
-            transition: color 0.5s ease;
+        :root {
+            --neon-cyan: #00f2ff;
+            --neon-teal: #00b8b8;
+            --neon-ice: #82faff;
+            --dark-teal: #012a30;
+            --bg-dark: #061d22; 
+            --text-light: #ffffff;
         }
-        #header .u-nav .u-nav-link:hover, #header .u-nav .u-nav-link:focus { color: #03dddd !important; }
-        #header .u-nav .u-nav-link.active, #header .u-nav .u-nav-link[aria-current="page"] { color: #03dada !important; }
-        .u-popupmenu-items .u-nav-link { color: #38393a !important; }
-        .u-popupmenu-items .u-nav-link:hover, .u-popupmenu-items .u-nav-link.active { color: #05cfcf !important; }
-        #header .u-svg-link { fill: currentColor; }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: var(--bg-dark);
+            color: var(--text-light);
+            overflow-x: hidden;
+            line-height: 1.6;
+        }
+
+        /* Ambient Geometric Animation */
+        .bg-wrapper {
+            position: fixed;
+            top: 0; left: 0; width: 100%; height: 100%;
+            z-index: -1;
+            background: var(--bg-dark);
+            overflow: hidden;
+        }
+
+        .shape {
+            position: absolute;
+            filter: blur(80px);
+            opacity: 0.25;
+            animation: moveShape 20s infinite alternate ease-in-out;
+        }
+
+        .shape-1 { 
+            width: 450px; height: 450px; 
+            top: 10%; left: -5%; 
+            background: linear-gradient(45deg, var(--neon-cyan), var(--neon-teal)); 
+            clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+        }
+        
+        .shape-2 { 
+            width: 550px; height: 550px; 
+            bottom: 5%; right: -10%; 
+            background: linear-gradient(45deg, var(--neon-ice), var(--dark-teal)); 
+            clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+            animation-delay: -3s; 
+        }
+
+        @keyframes moveShape {
+            0% { transform: translate(0, 0) scale(1) rotate(0deg); }
+            100% { transform: translate(25%, 20%) scale(1.3) rotate(45deg); }
+        }
+
+        .container { 
+            max-width: 900px; /* Más angosto para lectura cómoda */
+            margin: 0 auto; 
+            padding: 40px 15px; 
+        }
+
+        /* Top Header simple con Logo */
+        .simple-header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .simple-header img {
+            max-height: 60px;
+            transition: 0.3s;
+        }
+
+        .simple-header img:hover {
+            filter: drop-shadow(0 0 15px rgba(0, 242, 255, 0.5));
+        }
+
+        /* Botón de volver al inicio */
+        .back-btn-container {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .back-btn {
+            display: inline-flex; 
+            align-items: center; 
+            justify-content: center; 
+            gap: 10px;
+            padding: 12px 30px;
+            background: transparent;
+            color: var(--neon-cyan);
+            border: 2px solid var(--neon-cyan);
+            text-decoration: none !important;
+            font-weight: 800; 
+            font-size: 1rem; 
+            text-transform: uppercase; 
+            border-radius: 8px; 
+            transition: 0.3s;
+            letter-spacing: 1px;
+        }
+
+        .back-btn:hover {
+            background: rgba(0, 242, 255, 0.1);
+            box-shadow: 0 0 20px rgba(0, 242, 255, 0.4);
+            transform: scale(1.05);
+        }
+
+        /* Caja de contenido legal (Mismo estilo de la página principal) */
+        .legal-section {
+            background: rgba(3, 18, 24, 0.85);
+            padding: 50px;
+            border-radius: 20px; 
+            border: 1px solid rgba(0, 242, 255, 0.3);
+            box-shadow: inset 0 0 40px rgba(0,0,0,0.5), 0 0 50px rgba(0, 242, 255, 0.15); 
+            backdrop-filter: blur(12px);
+            color: #cbe4e6;
+        }
+
+        .legal-section h1 {
+            color: #fff;
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 40px;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            text-shadow: 0 0 10px rgba(0, 242, 255, 0.5); 
+        }
+
+        .legal-section h3 {
+            color: var(--neon-ice);
+            font-size: 1.4rem;
+            margin-top: 35px;
+            margin-bottom: 15px;
+            font-weight: 800;
+        }
+
+        .legal-section p {
+            margin-bottom: 15px;
+            font-size: 1rem;
+            line-height: 1.8;
+            text-align: justify;
+        }
+
+        .legal-section ul {
+            margin-bottom: 20px;
+            padding-left: 20px;
+        }
+
+        .legal-section li {
+            margin-bottom: 10px;
+            font-size: 1rem;
+        }
+
+        .legal-section strong {
+            color: #fff;
+        }
+
+        /* Footer */
+        footer { 
+            text-align: center; 
+            padding: 60px 0; 
+            border-top: 1px solid rgba(0,242,255,0.1); 
+            font-size: 0.8rem; 
+            color: #7a9c9f; 
+            margin-top: 40px; 
+        }
+        
+        footer p { margin-bottom: 15px; }
+        
+        .footer-links { display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; }
+        .footer-links a { color: #8ebbc0; text-decoration: none; transition: 0.3s; font-weight: 600; }
+        .footer-links a:hover { color: var(--neon-cyan); text-shadow: 0 0 10px rgba(0, 242, 255, 0.5); }
+
+        @media (max-width: 768px) {
+            .legal-section { padding: 30px 20px; }
+            .legal-section h1 { font-size: 2rem; }
+        }
     </style>
-    <!-- Meta Pixel Code -->
-<script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '1408373406987633');
-fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=1408373406987633&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Meta Pixel Code -->
 </head>
+<body>
 
+    <!-- Animated Geometric Background -->
+    <div class="bg-wrapper">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+    </div>
 
-  <body data-path-to-root="./" data-include-products="false" class="u-body u-clearfix u-xl-mode" data-lang="es">
-<header class="u-clearfix u-header u-header" id="header" 
-        style="height:80px; display:flex; align-items:center;">
-  <div class="u-clearfix u-sheet u-valign-middle u-sheet-1" 
-       style="display:flex; align-items:center;">
-    <a href="index.html" class="u-image u-logo u-image-1" 
-       style="display:flex; align-items:center;">
-      <img src="images/default-logo.png" class="u-logo-image u-logo-image-1" 
-           style="max-height:50px; height:auto; width:auto;">
-    </a>
-    <nav class="u-menu u-menu-one-level u-offcanvas u-menu-1" role="navigation" aria-label="Menu navigation">
-      <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px;">
-        <a class="u-button-style u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-top-bottom-menu-spacing u-hamburger-link u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#" tabindex="-1" aria-label="Open menu" aria-controls="7512">
-          <svg class="u-svg-link" viewBox="0 0 24 24"><use xlink:href="#menu-hamburger"></use></svg>
-          <svg class="u-svg-content" version="1.1" id="menu-hamburger" viewBox="0 0 16 16" x="0px" y="0px" xmlns:xlink="http://www.w3.org/1999/xlink"><g><rect y="1" width="16" height="2"></rect><rect y="7" width="16" height="2"></rect><rect y="13" width="16" height="2"></rect></g></svg>
-        </a>
-      </div>
-      <div class="u-nav-container">
-        <ul class="u-nav u-unstyled u-nav-1" role="menubar">
-          <li class="u-nav-item" role="none">
-            <a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="index.html" style="padding: 10px 20px;" role="menuitem">Home</a>
-          </li>
-          <li class="u-nav-item" role="none">
-            <a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="beats-exclusivos.html" style="padding: 10px 20px;" role="menuitem">Beats Exclusivos</a>
-          </li>
-          <li class="u-nav-item" role="none">
-            <a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="index.html#sec-faq" style="padding: 10px 20px;" role="menuitem">Faq</a>
-          </li>
-          <li class="u-nav-item" role="none">
-            <a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="index.html#sec-7" style="padding: 10px 20px;" role="menuitem">Conócenos</a>
-          </li>
-        </ul>
-      </div>
-      <div class="u-nav-container-collapse" id="7512" role="region" aria-label="Menu panel">
-        <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
-          <div class="u-inner-container-layout u-sidenav-overflow">
-            <div class="u-menu-close" tabindex="-1" aria-label="Close menu"></div>
-            <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2">
-              <li class="u-nav-item"><a class="u-button-style u-nav-link" href="index.html">Home</a></li>
-              <li class="u-nav-item"><a class="u-button-style u-nav-link" href="beats-exclusivos.html">Beats Exclusivos</a></li>
-              <li class="u-nav-item"><a class="u-button-style u-nav-link" href="index.html#sec-faq">Faq</a></li>
-              <li class="u-nav-item"><a class="u-button-style u-nav-link" href="index.html#sec-7">Conócenos</a></li>
+    <div class="container">
+        
+        <!-- Logo Header -->
+        <div class="simple-header">
+            <a href="index.html">
+                <img src="images/default-logo.png" alt="Yombol Music">
+            </a>
+        </div>
+
+        <!-- Botón Volver Arriba -->
+        <div class="back-btn-container">
+            <a href="index.html" class="back-btn">
+                <i class="fas fa-arrow-left"></i> Back to Home
+            </a>
+        </div>
+
+        <!-- Content Section -->
+        <section class="legal-section">
+            <h1>Cookies Policy</h1>
+            
+            <p>At <strong>Yombol Music</strong> we use cookies and similar technologies to improve browsing experience, analyze traffic, and display personalized ads through services such as Google AdSense. This policy explains what cookies are, how we use them, and how you can manage them.</p>
+
+            <h3>1. What are cookies?</h3>
+            <p>Cookies are small text files stored on your device when you visit a website. They are used to remember your preferences, improve site performance, and provide you with relevant content.</p>
+
+            <h3>2. Types of cookies we use</h3>
+            <ul>
+                <li><strong>Essential cookies:</strong> necessary for the basic functioning of the site.</li>
+                <li><strong>Performance cookies:</strong> help us understand how users interact with the website.</li>
+                <li><strong>Functionality cookies:</strong> remember your preferences and personalize your experience.</li>
+                <li><strong>Advertising cookies:</strong> allow us to display relevant ads through Google AdSense and other partners.</li>
             </ul>
-          </div>
+
+            <h3>3. Third-party cookies</h3>
+            <p>Some cookies are managed by third parties, such as Google (AdSense, Analytics) or beat-selling platforms (Airbit, Beatstars). These cookies collect browsing data to provide statistics and personalized advertising.</p>
+
+            <h3>4. Managing cookies</h3>
+            <p>You can accept or reject cookies through the consent banner when entering the site. In addition, you can configure your browser to block or delete cookies at any time. Please note that disabling certain cookies may affect the functionality of the site.</p>
+
+            <h3>5. Changes to this policy</h3>
+            <p>We may update this Cookies Policy to reflect legal or technical changes. The current version will always be available on this page. Last update: 2026.</p>
+
+            <h3>6. Contact</h3>
+            <p>If you have questions about this Cookies Policy, contact us at <strong>YombolMusic@gmail.com</strong> or via WhatsApp at <strong>+57 319 401 8839</strong>.</p>
+        </section>
+
+        <!-- Botón Volver Abajo -->
+        <div class="back-btn-container" style="margin-top: 40px;">
+            <a href="index.html" class="back-btn">
+                <i class="fas fa-arrow-left"></i> Back to Home
+            </a>
         </div>
-        <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
-      </div>
-    </nav>
-  </div>
-</header>
- 
 
-
-<!-- Banderilla WhatsApp debajo del menú WHASTAPP BOTON -->
-<div style="position:absolute; top:95px; right:16%; z-index:1000;">
-  <a href="https://wa.me/573194018839?text=Hola%20%F0%9F%91%8B%20Deseo%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los%20beats%20de%20Yombol%20Music" target="_blank"
-     style="background:#00d9d8; color:#fff; 
-            padding:6px 14px; border-radius:20px; 
-            font-family:'Montserrat', sans-serif; 
-            font-weight:600; font-size:12px; 
-            text-decoration:none; display:flex; 
-            align-items:center; gap:6px;
-            box-shadow:0 2px 4px rgba(0,0,0,0.2);
-            transition:background-color 0.3s ease;">
-    <!-- Ícono WhatsApp -->
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
-         width="16" height="16" fill="currentColor">
-      <path d="M16 .5C7.4.5.5 7.4.5 16c0 2.8.7 5.5 2.1 7.9L.5 31.5l7.8-2.1c2.3 1.3 5 2 7.7 2 8.6 0 15.5-6.9 15.5-15.5S24.6.5 16 .5zm0 28c-2.4 0-4.7-.6-6.7-1.8l-.5-.3-4.6 1.2 1.2-4.5-.3-.5c-1.3-2.1-2-4.5-2-7 0-7.2 5.8-13 13-13s13 5.8 13 13-5.8 13-13 13zm7.2-9.7c-.4-.2-2.3-1.1-2.6-1.2-.3-.1-.5-.2-.7.2s-.8 1.2-1 1.4c-.2.2-.4.3-.7.1-.4-.2-1.5-.6-2.8-1.9-1-1-1.6-2.1-1.8-2.5-.2-.4 0-.6.2-.8.2-.2.4-.4.5-.6.2-.2.3-.4.5-.6.2-.2.3-.4.2-.6-.1-.2-.7-1.7-1-2.3-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.2-1.2 2.9s1.2 3.3 1.4 3.5c.2.2 2.3 3.5 5.6 4.9.8.3 1.4.5 1.9.6.8.2 1.5.2 2.1.1.6-.1 2.3-.9 2.6-1.8.3-.9.3-1.6.2-1.8-.1-.2-.3-.3-.7-.5z"/>
-    </svg>
-    +57 319 401 88 39
-  </a>
-</div>
-
-
-
-
-
-
-
-<section class="u-clearfix u-section-1" id="banner">
-  <div class="u-clearfix u-sheet u-sheet-1">
-
-    <!-- Banner reducido -->
-    <div class="u-image-1" style="height:380px;"></div>
-
-  </div>
-</section>
-
-
-
-
-
-
-
-
-
-
- <section class="u-align-center u-clearfix u-container-align-center u-container-align-left u-section-2" id="sec-f189">
-  <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
-    <div class="data-layout-selected u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
-      <div class="u-layout">
-        <div class="u-layout-row">
-          
-          <!-- Columna izquierda (texto licencia) -->
-          <div class="u-container-align-left u-container-style u-layout-cell u-size-60 u-layout-cell-1" 
-               data-animation-name="customAnimationIn" 
-               data-animation-duration="1000" 
-               data-animation-delay="0">
-            <div class="u-container-layout u-valign-middle u-container-layout-1">
-              
-              <!-- 🔹 Aquí va el texto de la licencia -->
-
-
-              
-        <div class="privacy-content" style="margin-left:40px; text-align:justify;">
-
-
-          
-<h3 class="page-title"><strong>POLÍTICA DE COOKIES</strong></h3>
-              <p>En <strong>Yombol Music</strong> utilizamos cookies y tecnologías similares para mejorar la experiencia de navegación, analizar el tráfico y mostrar anuncios personalizados a través de servicios como Google AdSense. Esta política explica qué son las cookies, cómo las usamos y cómo puedes gestionarlas.</p>
-
-              <h3>1. ¿Qué son las cookies?</h3>
-              <p>Las cookies son pequeños archivos de texto que se almacenan en tu dispositivo cuando visitas un sitio web. Sirven para recordar tus preferencias, mejorar el rendimiento del sitio y ofrecerte contenidos relevantes.</p>
-
-              <h3>2. Tipos de cookies que utilizamos</h3>
-              <ul>
-                <li><strong>Cookies esenciales:</strong> necesarias para el funcionamiento básico del sitio.</li>
-                <li><strong>Cookies de rendimiento:</strong> nos ayudan a entender cómo los usuarios interactúan con la web.</li>
-                <li><strong>Cookies de funcionalidad:</strong> recuerdan tus preferencias y personalizan tu experiencia.</li>
-                <li><strong>Cookies de publicidad:</strong> permiten mostrar anuncios relevantes mediante Google AdSense y otros socios.</li>
-              </ul>
-
-              <h3>3. Cookies de terceros</h3>
-              <p>Algunas cookies son gestionadas por terceros, como Google (AdSense, Analytics) o plataformas de venta de beats (Airbit, Beatstars). Estas cookies recopilan datos de navegación para ofrecer estadísticas y publicidad personalizada.</p>
-
-              <h3>4. Gestión de cookies</h3>
-              <p>Puedes aceptar o rechazar cookies a través del banner de consentimiento al entrar en el sitio. Además, puedes configurar tu navegador para bloquear o eliminar cookies en cualquier momento. Ten en cuenta que desactivar ciertas cookies puede afectar el funcionamiento del sitio.</p>
-
-              <h3>5. Cambios en esta política</h3>
-              <p>Podemos actualizar esta Política de Cookies para reflejar cambios legales o técnicos. La versión vigente estará siempre disponible en esta página. Última actualización: 2025.</p>
-
-              <h3>6. Contacto</h3>
-              <p>Si tienes dudas sobre esta Política de Cookies, contáctanos en <strong>YombolMusic@gmail.com</strong> o por WhatsApp <strong>+57 319 401 8839</strong>.</p>
-
-
-
-
-
-
-
-              
+        <!-- Footer Minimo -->
+        <footer>
+            <p>© 2026 Yombol Music. All Rights Reserved.</p>
+            <div class="footer-links">
+                <a href="privacy-policy.html">Privacy Policy</a> • 
+                <a href="cookies.html">Cookies Policy</a> • 
+                <a href="terms-conditions.html">Terms & Conditions</a>
             </div>
-          </div>
-          
-        </div>
-      </div>
+        </footer>
+
     </div>
-  </div>
-</section>
-
-
-
-
-
-
-
-
-
-
-
-
     
-
-
-
-    
-    
-
-
-
-
-
-    
-<footer class="footer">
-  <div class="footer-container">
-    
-    <!-- 🧱 Columna 1: Contacto y pagos -->
-    <div class="footer-col">
-      <div class="footer-logo">
-        <a href="index.html">
-        <img src="images/default-logo.png" alt="Yombol Music Logo" class="footer-logo-img">
-        </a>
-        <h3>YOMBOL MUSIC</h3>
-        <p>🎧 Beatmaker | Tienda Oficial</p>
-      </div>
-      <ul style="list-style: none; padding-left: 0; margin: 0;">
-        <li>📩 <a href="mailto:YombolMusic@gmail.com">YombolMusic@gmail.com</a></li>
-        <li>📱 <a href="https://wa.me/573194018839" target="_blank">+57 319 401 88 39</a></li>
-       <li class="small-note" style="margin-left:17px;"><em>(Atención 24/7)</em></li>
-
-      </ul>
-      <h4>Métodos de pago aceptados:</h4>
-      <div class="payments">
-        <img src="images/payments/paypal.png" alt="PayPal">
-        <img src="images/payments/visa.png" alt="Tarjeta crédito/débito">
-        <img src="images/payments/westernunion.png" alt="Western Union">
-        <img src="images/payments/bancolombia.png" alt="Bancolombia">
-        <img src="images/payments/efecty.png" alt="Efecty">
-        <img src="images/payments/xoom.png" alt="Xoom">
-        <img src="images/payments/mercadopago.png" alt="Mercado Pago">
-      </div>
-    </div>
-
-    <!-- 🎵 Columna 2: Categorías -->
-    <div class="footer-col">
-      <h4>Categorías de Beats</h4>
-      <ul>
-        <li class="list-heading">Beats Exclusivos:</li>
-        <li><a href="beats-exclusivos.html#sec-2">2 Beats X $60</a></li>
-        <li><a href="beats-exclusivos.html#sec-2">4 Beats X $100</a></li>
-        <li class="list-heading">Beats Lease:</li>
-        <li><a href="trap-beats.html#sec-f189">Trap 🎚️</a></li>
-        <li><a href="reggaeton-beats.html#sec-f189">Reggaetón 🔥</a></li>
-        <li><a href="rap-beats.html#sec-f189">Rap 🎤</a></li>
-        <li><a href="afrobeat-beats.html#sec-f189">Afrobeat 🌍</a></li>
-        <li class="list-heading">Ofertas Especiales:</li>
-        <li><a href="paquetes-de-beats.html">Paquetes de Beats</a></li>
-      </ul>
-    </div>
-
-    <!-- ⚙️ Columna 3: Información -->
-    <div class="footer-col">
-      <h4>Información y Soporte</h4>
-      <ul>
-        <li class="list-heading">Accesos rápidos:</li>
-        <li><a href="index.html#sec-3">Info de licencias</a></li>
-        <li><a href="index.html#sec-faq">Preguntas frecuentes (FAQ)</a></li>
-        <li class="list-heading">Legal / Soporte:</li>
-        <li><a href="politica-privacidad.html">Política de privacidad</a></li>
-        <li><a href="cookies.html">Política de cookies</a></li>
-        <li><a href="terminos-condiciones.html">Términos y condiciones</a></li>
-<li class="list-heading hide-mobile">Entretenimiento:</li>
-<li class="hide-mobile"><a href="jugar.html">Jugar</a></li>
-      </ul>
-    </div>
-
-    <!-- 🌐 Columna 4: Redes sociales + Idioma -->
-    <div class="footer-col">
-      <h4>Sígueme</h4>
-      <div class="social-icons">
-        <a href="https://www.youtube.com/@YombolMusic" target="_blank"><img src="images/social/youtube.png" alt="YouTube"></a>
-        <a href="https://www.instagram.com/YombolMusic" target="_blank"><img src="images/social/instagram.png" alt="Instagram"></a>
-        <a href="https://www.tiktok.com/@yombol" target="_blank"><img src="images/social/tiktok.png" alt="TikTok"></a>
-        <a href="https://www.facebook.com/YombolMusic" target="_blank"><img src="images/social/facebook.png" alt="Facebook"></a>
-        <a href="https://x.com/YombolMusic" target="_blank"><img src="images/social/x.png" alt="X"></a>
-        <a href="https://www.beatstars.com/yombolmusic/tracks" target="_blank"><img src="images/social/beatstars.png" alt="BeatStars"></a>
-        <a href="https://wa.me/573194018839" target="_blank"><img src="images/social/whatsapp.png" alt="WhatsApp"></a>
-      </div>
-
-      <!-- Idioma -->
-      <div class="language-selector">
-        <label for="lang">🌐 Idioma:</label>
-        <select id="lang" onchange="location = this.value;">
-          <option value="cookies.html" selected>Español</option>
-          <option value="en/cookies.html">English</option>
-        </select>
-      </div>
-    </div>
-
-  </div>
-
-  <!-- Créditos -->
-  <div class="footer-bottom">
-    <p>© 2025 Yombol Music. Todos los derechos reservados.</p>
-  </div>
-</footer>
-
-
-
-    <section class="u-backlink u-clearfix u-grey-80"></section>
-  
-
-    
-
-
-
-
-
-
-    
-
-
-</body></html>
+</body>
+</html>
