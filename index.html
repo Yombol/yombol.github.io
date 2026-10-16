@@ -66,9 +66,10 @@
             width: 100%;
             max-width: 1000px;
             position: relative;
-            background: rgba(10, 10, 20, 0.92);
+            background: #0a0a14; /* Más sólido para evitar rarezas */
             min-height: 100vh;
-            box-shadow: 0 0 80px rgba(0, 0, 0, 0.8);
+            /* Sombra limpia y suave (ya no se ve línea gorda) */
+            box-shadow: 0 0 40px rgba(0, 0, 0, 0.7);
             overflow: hidden;
         }
 
@@ -278,10 +279,9 @@
             transition: all 0.25s ease;
         }
 
-        /* Icono cerca del texto y centrado verticalmente */
         .social-btn .icon-left {
             position: absolute;
-            left: calc(50% - 110px); /* Ajuste para quedar cerca del texto */
+            left: calc(50% - 110px);
             top: 50%;
             transform: translateY(-50%);
             display: flex;
